@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+    <meta charset="UTF-8">
+    <title id="title">Survey Form</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <h1 id="title">Survey</h1>
+    <p id="description">Please fill out this survey so we can continue doing a good job of asking silly questions</p>
+    <form id="survey-form" method="post" action='https://register-demo.freecodecamp.org'>
+    <fieldset>
+        <label for="name">Enter Your Name: <input id="name" name="name" type="text" required /></label>
+ <label for="email">Enter Your Email: <input id="email" name="email" type="email" required type="email"/></label>
+ <fieldset>
+   </fieldset> 
+ <label
+for="age"> Your Age: <input id="number" type="number" name="age" 
+name="age" min="13" max="120"class="inline"/>
+<fieldset>
+<label for="occupation status">Occupation status (select)</label
+name="occupation"
+<label for="employed"><input id="employed" type="radio" name="employed" class="inline" /> Employed
+ <label for="student"><input id="student" type="radio" name="student" class="inline"/> Student</label>
+ <fieldset>
+<label for="What is your favourite animal">What is your favourite animal? 
+  <input id="animal"
+type="text"
+name="animal"/>
+</label>
+<fieldset>
+<label for="choose">Which animals would you like to own if you could choose?</label>
+<select id="choose">
+  <option value="cow">Cow</option>
+  <option value="cat">Cat</option>
+  <option value="dog">Dog</option>
+<option value="snail">Snail</option>
+<option value="bee">Bee</option>
+<option value="dinosaur">Dinosaur</option>
+<option value="all of the cats">All of the cats</option>
+</select>
+<fieldset>
+  <label for="submit">Submit
+ <input type="submit" value="Submit" />
+    </form>
+  </body>
+</html>
